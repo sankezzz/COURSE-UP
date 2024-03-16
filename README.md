@@ -34,7 +34,7 @@ CourseUp utilizes the following technologies:
 - Backend: Node.js
 - Deployment: Vercel
 
-## Why-Need? / Problem ❓
+## What is the need for it❓
 In the field of online learning, learners often face challenges such as:
 - Lack of Guidance: Many learners struggle due to the absence of proper guidance, making it time-consuming to navigate through the vast array of courses available online.
 - Uncertainty of Returns: Learners often face uncertainty regarding the returns on their investment in paid courses. It's crucial to ensure that the chosen course provides tangible benefits and valuable knowledge.
