@@ -1,11 +1,18 @@
-# CourseUp 
+<div align="center">
+<h1>CourseUp</h1> 
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/sankezzz/COURSE-UP.svg?style=social)](https://github.com/sankezzz/COURSE-UP/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/sankezzz/COURSE-UP.svg)](https://github.com/sankezzz/COURSE-UP/issues)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=sankezzz/COURSE-UP)](https://hits.seeyoufarm.com)
+</div>
 
 ## Table of Contents
 1. [About Us](#about-us)
 2. [Idea](#idea)
 3. [Team Members](#team-members)
 4. [Technologies Used](#technologies-used)
-5. [Why-Need? / Problem](#why-need-problem)
+5. [Why-Need? / Problem](#why-need--problem)
 6. [Problem Solving](#problem-solving)
 7. [Working of the Algorithm](#working-of-the-algorithm)
 8. [Rewards for the Reviewer](#rewards-for-the-reviewer)
@@ -18,7 +25,7 @@ Our idea revolves around:
 ## About Us ℹ️
 At CourseUp:
 - We are dedicated to helping developers find the best courses and tutorials across various languages and platforms.
-- Our goal is to create a vibrant community where students can share their experiences, review courses, and help each other make informed decisions when it comes to learning new skills.
+- Our goal is to create a vibrant community where students can share their experiences, review courses, and help each other make informed decisions when it comes to learninga new skills.
 - We aim to have a library of courses from small to large creators and upcoming teachers.
 
 ## Technologies Used 💻
@@ -53,8 +60,8 @@ As a reviewer on CourseUp, you can expect several benefits and rewards for your 
 - Improvement of communication and critical thinking skills
 - Growth opportunities and networking
 - Rewards based on productivity and contribution
-- 
-- ## Team Members 👥
+
+## Team Members 👥
 - [Sanket Suryawanshi](https://github.com/sankezzz)
 - [Aarsh Hadap](https://github.com/aarsh-hadap19)
 - [Prathamesh Kurekar](https://github.com/prathamesshh)
