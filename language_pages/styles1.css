@@ -111,7 +111,9 @@ h1 {
     box-sizing: border-box; /* Ensure padding is included in the width */
     position: relative; /* Enable absolute positioning for child elements */
 }
-
+.bar{
+    background-color: #0056b3;
+}
 .product h2 {
     font-size: 20px;
     margin-bottom: 10px;

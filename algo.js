@@ -1,3 +1,9 @@
+const tags = new Map([
+    ["fast paced",1 ],
+    ["slow paced", ],["", ],["", ]
+  ]);
+
+
 function findArrayWithMaxMatches(smallerArray, largerArrays) {
     let maxMatches = 0;
     let maxMatchArray = null;

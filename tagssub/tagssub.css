@@ -6,7 +6,7 @@ body {
     background-image: url();
     background-image:auto
     ;
-    background-image : url("/language_pages/images/bg2.jpeg") ;
+    /* background-image : url("/language_pages/images/bg2.jpeg") ; */
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -19,7 +19,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 40px;
-    /* background-image : url("/language_pages/images/bg2.jpeg") ; */
+    background-image : url("/language_pages/images/bg2.jpeg") ;
     background-color: rgba(64, 63, 62, 0.666);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -27,34 +27,41 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    color: #f9fbfd;
 }
 
 .form-group {
     margin-bottom: 20px;
+    color: #f9fbfd;
 }
 
 label {
     font-weight: bold;
     font-size: large;
+    color: #f9fbfd;
 
 }
 
 input[type="checkbox"] {
     margin-right: 10px;
     padding: 10px;
+    
 }
 
 .text {
     margin-bottom: 20px;
     font-size: large;
+    
 }
 input[type=text]{
     width: 250px;
     height: 20px;
+    border-radius: 5%;
+    border-color: #141311;
 }
 
 button[type="submit"] {
-    background-color: #847331;
+    background-color: #141311;
     color: #fff;
     border: none;
     border-radius: 5px;
