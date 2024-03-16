@@ -1,0 +1,160 @@
+/* styles1.css */
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background : url("/language_pages/images/bg2.jpeg") ; */
+    background-color: #150303;
+    background-size: cover;
+    position: absolute;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.search-input {
+    width: 90%; /* Adjusted width */
+    padding: 15px; /* Increased padding */
+    background-color: #000000;
+    font-size: 20px; /* Increased font size */
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; /* Rounded left corners */
+    box-sizing: border-box;
+}
+
+.search-button {
+    padding: 15px 30px; /* Match the height of the input */
+    font-size: 20px; /* Increased font size */
+    background-color: #75797c;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0; /* Rounded right corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.checked {
+    color: orange;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    flex-basis: calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px); /* Adjust to prevent overflow */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background-color: #33212100; /* Background color added */
+    color: white; /* Text color set to white */
+    padding: 20px;
+    border-radius: 15px; /* Increased border radius */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    position: relative; /* Enable absolute positioning for child elements */
+}
+
+.product h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.product p.price {
+    font-weight: bold;
+}
+
+.product img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded edges */
+    margin-bottom: 15px;
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+
+.product img:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+}
+
+a {
+    color: inherit; /* Inherit the color from the parent */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Style the headings */
+h1, h2 {
+    color: rgb(5, 5, 5); /* Set text color to white */
+    text-align: center;
+    background-color: #e3e0ff; /* Set background color */
+    padding: 10px 0; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+}
+
+h1 {
+    font-size: 32px; /* Adjust the font size */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+h2 {
+    font-size: 24px; /* Adjust the font size */
+    margin-bottom: 15px; /* Add margin at the bottom */
+}
+
+/* Main heading style */
+.main-heading {
+    color: white;
+    background-color: #00372100;
+    padding: 20px;
+    text-align: left; /* Align to the left */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 140px; /* Leave 200px space from the left */
+    margin-right: 140px; /* Leave 200px space from the left */
+
+}
+
+
+/* Category heading style */
+.category-heading {
+    color: white;
+    background-color: #05003700;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+}
