@@ -10,17 +10,45 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 100%;
             background-image : url("/language_pages/images/bg2.jpeg") ;
             background-size: cover;
     /* position: absolute; */
-            font-family: 'Courier New', Courier, monospace
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
+        }
+        .submit-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          .submit-button:hover {
+            background-color: #0056b3;
+          }
+        .tag {
+            display: inline-block;
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .tag:hover {
+            background-color: #ccc;
         }
         .rating {
             unicode-bidi: bidi-override;
             direction: rtl;
         }
+        
         
         .rating > .fa {
             font-size: 1.2em;
@@ -28,6 +56,32 @@
         
         .checked {
             color: orange;
+        }
+        /* body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        } */
+        .comment-section {
+            width: 600px;
+            margin: 20px auto;
+        }
+        .comment {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .comment .author {
+            font-weight: bold;
+            color: #fff5f5;
+        }
+        .comment .date {
+            color: #666;
+            font-size: 0.8em;
+        }
+        .comment .content {
+            margin-top: 5px;
         }
         /* Styling box */
         .box {
