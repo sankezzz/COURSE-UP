@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=sankezzz/COURSE-UP)](https://hits.seeyoufarm.com)
 </div>
 
-https://course-up-tawny.vercel.app/
+Link for the deployed site : https://course-up-tawny.vercel.app/
 
 
 ## Table of Contents
