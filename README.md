@@ -21,6 +21,8 @@
 Our idea revolves around:
 - Creating a platform where students can review courses from any platform and in any programming language.
 - Allowing developers to choose courses based on community reviews, saving time and effort in searching for the right course.
+- Also providing an algorithm where a user can input his preferance tags and get the course which matches his preferances
+- Also we can submit our own reviews
 
 ## About Us ℹ️
 At CourseUp:
@@ -38,6 +40,7 @@ CourseUp utilizes the following technologies:
 In the field of online learning, learners often face challenges such as:
 - Lack of Guidance: Many learners struggle due to the absence of proper guidance, making it time-consuming to navigate through the vast array of courses available online.
 - Uncertainty of Returns: Learners often face uncertainty regarding the returns on their investment in paid courses. It's crucial to ensure that the chosen course provides tangible benefits and valuable knowledge.
+- Ease of experience and finding of the course for you
 
 CourseUp aims to address these challenges by:
 - Providing a way: Through community reviews and ratings, learners receive guidance from experienced individuals who have taken the courses they're interested in. This helps them make informed decisions and saves time.
@@ -51,7 +54,11 @@ CourseUp addresses the challenges faced by learners in the field of online learn
 - Informed Decision-Making: Empowering learners to make educated decisions when selecting paid courses by providing comprehensive information and reviews.
 
 ## Working of the Algorithm 🛠️
-[Explain how the algorithm of CourseUp works]
+<h2>We will be using two kinds of algorithms:</h2><br>
+<h2>Highest Rated :</h2>  in this the course with highest ratings provided by the user will be on top of other courses 
+This will be useful as a collective community of developers we can help each other by submitting review of an course so that any other person might not waste his/her time .<br>
+
+<h2>User Tags specific :</h2> in this we will provide user a form in which he will be given some options which are tags which have a certain value assessed to it. Now when a user inputs these an array is created where these values are stored in an array e.g [1,2,3] nowthis array will be checked among videos on the data where the we have a set of arrays related to each video which are tags for it now we will search the input array among the set of arrays so as to find the maximum number of matching numbers or maximum number of matching tags that video will be displayed to you . This algorithm is mentioned in the algo.js file for reference .
 
 ## Rewards for the Reviewer 🏆
 As a reviewer on CourseUp, you can expect several benefits and rewards for your contributions:
