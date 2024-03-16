@@ -22,9 +22,9 @@ At CourseUp:
 - We aim to have a library of courses from small to large creators and upcoming teachers.
 
 ## Team Members 👥
-- @sankezzz
-- @aarsh-hadap19
-- @prathamesshh
+- [Sanket Suryawanshi](https://github.com/sankezzz)
+- [Aarsh Hadap](https://github.com/aarsh-hadap19)
+- [Prathamesh Kurekar](https://github.com/prathamesshh)
 
 ## Technologies Used 💻
 CourseUp utilizes the following technologies:
