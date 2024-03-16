@@ -14,6 +14,7 @@ a:hover {
   text-decoration: none;
 }
 
+
 h1,
 h2,
 h3,
@@ -694,6 +695,9 @@ section {
   padding: 40px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  background: url("../img/hero-bgp.jpg") center center;
+  border-radius: 7%;
+
 }
 
 .services .icon-box .icon {
@@ -701,13 +705,13 @@ section {
   width: 64px;
   height: 64px;
   border-radius: 50px;
-  border: 3px solid #050037;
+  border: 3px solid #e9e9f3;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   transition: ease-in-out 0.3s;
-  color: #050037;
+  color: #ecebff;
 }
 
 .services .icon-box .icon i {
@@ -721,7 +725,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #36343a;
+  color: #d8d2e2;
   transition: ease-in-out 0.3s;
 }
 
@@ -738,12 +742,12 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color:#050037;
+  color:#b37f7f;
 }
 
 .services .icon-box:hover .icon {
   color: #fff;
-  background: #003d99;
+  background: #3b3c3d;
 }
 
 /*--------------------------------------------------------------

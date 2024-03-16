@@ -1,19 +1,55 @@
 /* styles1.css */
 
 body {
-    font-family: "Raleway", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
     margin: 0;
     padding: 0;
-    /* background : url("/language_pages/images/bg2.jpeg") ; */
-    background-color: #150303;
+    background-image : url("/language_pages/images/bg2.jpeg") ;
+    background-color: #1d2e2bcb;
     background-size: cover;
     position: absolute;
+    font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal; */
 }
+
 
 .container {
     width: 80%;
+    height: fit-content;
     margin: 0 auto;
     padding: 20px;
+}
+.tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tag:hover {
+    background-color: #ccc;
+}
+
+/* Include Font Awesome CSS if not already included */
+/* link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" */
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating > .fa {
+    font-size: 1.2em;
+}
+
+.checked {
+    color: orange;
 }
 
 h1 {
@@ -31,10 +67,10 @@ h1 {
 .search-input {
     width: 90%; /* Adjusted width */
     padding: 15px; /* Increased padding */
-    background-color: #000000;
+    background-color: #252424;
     font-size: 20px; /* Increased font size */
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px; /* Rounded left corners */
+    border: 1px solid #6a464600;
+    border-radius: 10px 0 0 10px; /* Rounded left corners */
     box-sizing: border-box;
 }
 
@@ -43,8 +79,8 @@ h1 {
     font-size: 20px; /* Increased font size */
     background-color: #75797c;
     color: white;
-    border: none;
-    border-radius: 0 5px 5px 0; /* Rounded right corners */
+    border-color: #110e0e00;
+    border-radius: 0 10px 10px 0; /* Rounded right corners */
     cursor: pointer;
     transition: background-color 0.3s ease; /* Smooth transition */
 }
@@ -67,8 +103,8 @@ h1 {
     flex-basis: calc(33.33% - 20px);
     max-width: calc(33.33% - 20px); /* Adjust to prevent overflow */
     margin-bottom: 20px;
-    border: 1px solid #ddd;
-    background-color: #33212100; /* Background color added */
+    border: 1px solid #00000000;
+    background-color: #1e1c1cc1; /* Background color added */
     color: white; /* Text color set to white */
     padding: 20px;
     border-radius: 15px; /* Increased border radius */

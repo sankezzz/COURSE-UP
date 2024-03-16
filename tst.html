@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tag Values Example</title>
+</head>
+<body>
+
+<!-- Radio field to select tag set -->
+<input type="radio" name="tagSet" value="tag1" checked> Tag Set 1
+<input type="radio" name="tagSet" value="tag2"> Tag Set 2
+
+<!-- Tags for Tag Set 1 -->
+<div class="tag1 tag-set">
+    <div class="tag" data-value="1">Tag A</div>
+    <div class="tag" data-value="2">Tag B</div>
+    <div class="tag" data-value="3">Tag C</div>
+</div>
+
+<!-- Tags for Tag Set 2 -->
+<div class="tag2 tag-set" style="display:none;">
+    <div class="tag" data-value="4">Tag D</div>
+    <div class="tag" data-value="5">Tag E</div>
+    <div class="tag" data-value="6">Tag F</div>
+</div>
+
+<!-- Script to handle radio field change -->
+<script>
+document.querySelectorAll('input[name="tagSet"]').forEach(radio => {
+    radio.addEventListener('change', function() {
+        document.querySelectorAll('.tag-set').forEach(tagSet => {
+            tagSet.style.display = 'none';
+        });
+        document.querySelector('.' + this.value).style.display = 'block';
+    });
+});
+
+// Storing the numerical values of tags in different arrays based on radio selection
+let tagValuesArrays = {
+    tag1: [],
+    tag2: []
+};
+
+document.querySelectorAll('.tag').forEach(tag => {
+    tag.addEventListener('click', function() {
+        let tagValue = parseInt(this.getAttribute('data-value'));
+        let tagSet = document.querySelector('input[name="tagSet"]:checked').value;
+        tagValuesArrays[tagSet].push(tagValue);
+        console.log(tagValuesArrays);
+    });
+});
+</script>
+
+</body>
+</html>

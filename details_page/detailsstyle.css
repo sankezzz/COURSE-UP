@@ -1,0 +1,57 @@
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Centering container */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image : url("/language_pages/images/bg2.jpeg") ;
+            background-size: cover;
+    /* position: absolute; */
+            font-family: 'Courier New', Courier, monospace
+
+        }
+        .rating {
+            unicode-bidi: bidi-override;
+            direction: rtl;
+        }
+        
+        .rating > .fa {
+            font-size: 1.2em;
+        }
+        
+        .checked {
+            color: orange;
+        }
+        /* Styling box */
+        .box {
+            width: 50;
+            padding: 20px;
+            background-color: #1e1d1d;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: rgb(185, 196, 205);
+        }
+
+        /* Styling image */
+        .image-container {
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        /* Styling description */
+        .description {
+            text-align: center;
+        }
+  
