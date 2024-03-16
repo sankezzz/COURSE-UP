@@ -1,4 +1,4 @@
-# CourseUp 📚
+# CourseUp 
 
 ## Table of Contents
 1. [About Us](#about-us)
