@@ -157,7 +157,7 @@ a:hover {
 h1, h2 {
     color: rgb(5, 5, 5); /* Set text color to white */
     text-align: center;
-    background-color: #e3e0ff; /* Set background color */
+    background-color: #e3e0ff87; /* Set background color */
     padding: 10px 0; /* Add padding */
     border-radius: 5px; /* Add border radius */
 }
@@ -195,4 +195,12 @@ h2 {
     margin-bottom: 15px;
     text-align: center;
     font-size: 50px;
+}
+
+.bar{
+    border-radius: 9px;
+    align-self: center;
+    margin: auto;
+    background-color: #e3e0ff;
+    width: 50%;
 }

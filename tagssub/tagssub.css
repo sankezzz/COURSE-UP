@@ -61,18 +61,19 @@ input[type=text]{
     border-color: #141311;
 }
 
-button[type="submit"] {
-    background-color: #141311;
-    color: #fff;
+.button {
+    background-color: #fefefe;
+    color: white;
     border: none;
+    padding: 15px 30px; /* Adjust padding as needed */
+    font-size: 20px; /* Adjust font size as needed */
     border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 26px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    text-align: center;
+    text-decoration: none;
 }
 
-button[type="submit"]:hover {
-    background-color: #f9fbfd;
+.button:hover {
+    background-color: #bdcee0;
 }
+
+
