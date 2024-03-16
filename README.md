@@ -1,5 +1,5 @@
 <div align="center">
-<h1>CourseUp</h1> 
+<h1> CourseUp </h1>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/sankezzz/COURSE-UP.svg?style=social)](https://github.com/sankezzz/COURSE-UP/stargazers)
@@ -8,8 +8,8 @@
 </div>
 
 ## Table of Contents
-1. [About Us](#about-us)
-2. [Idea](#idea)
+1. [Idea](#idea)
+2. [About Us](#about-us)
 3. [Team Members](#team-members)
 4. [Technologies Used](#technologies-used)
 5. [Why-Need? / Problem](#why-need--problem)
