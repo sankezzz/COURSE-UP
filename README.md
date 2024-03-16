@@ -21,11 +21,6 @@ At CourseUp:
 - Our goal is to create a vibrant community where students can share their experiences, review courses, and help each other make informed decisions when it comes to learning new skills.
 - We aim to have a library of courses from small to large creators and upcoming teachers.
 
-## Team Members 👥
-- [Sanket Suryawanshi](https://github.com/sankezzz)
-- [Aarsh Hadap](https://github.com/aarsh-hadap19)
-- [Prathamesh Kurekar](https://github.com/prathamesshh)
-
 ## Technologies Used 💻
 CourseUp utilizes the following technologies:
 - Frontend: HTML, CSS, JavaScript
@@ -58,5 +53,10 @@ As a reviewer on CourseUp, you can expect several benefits and rewards for your 
 - Improvement of communication and critical thinking skills
 - Growth opportunities and networking
 - Rewards based on productivity and contribution
+- 
+- ## Team Members 👥
+- [Sanket Suryawanshi](https://github.com/sankezzz)
+- [Aarsh Hadap](https://github.com/aarsh-hadap19)
+- [Prathamesh Kurekar](https://github.com/prathamesshh)
 
 Overall, being a reviewer on CourseUp offers you the chance to contribute to a supportive community, enhance your skills, and gain valuable rewards and recognition for your efforts.
