@@ -11,14 +11,14 @@ Link for the deployed site : https://course-up-tawny.vercel.app/
 
 
 ## Table of Contents
-1. [Idea](#idea)
+1. [Idea](##idea)
 2. [About Us](#about-us)
-3. [Team Members](#team-members)
-4. [Technologies Used](#technologies-used)
-5. [Why-Need? / Problem](#why-need--problem)
-6. [Problem Solving](#problem-solving)
-7. [Working of the Algorithm](#working-of-the-algorithm)
-8. [Rewards for the Reviewer](#rewards-for-the-reviewer)
+3. [Team Members](##team-members)
+4. [Technologies Used](##technologies-used)
+5. [Why-Need? / Problem](##why-need--problem)
+6. [Problem Solving](##problem-solving)
+7. [Working of the Algorithm](##working-of-the-algorithm)
+8. [Rewards for the Reviewer](##rewards-for-the-reviewer)
 
 ## Idea 💡
 Our idea revolves around:
