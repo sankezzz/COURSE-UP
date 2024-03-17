@@ -55,6 +55,7 @@ CourseUp addresses the challenges faced by learners in the field of online learn
 - Time-Saving: Helping learners save time by streamlining the process of selecting courses through community insights and recommendations.
 - Assessed Returns: Assisting learners in assessing the potential returns on their investment by offering insights into the quality and effectiveness of courses.
 - Informed Decision-Making: Empowering learners to make educated decisions when selecting paid courses by providing comprehensive information and reviews.
+- Using the tags algorithm implemented in this which makes a personalised course for a person with the tags user mentioned
 
 ## Working of the Algorithm 🛠️
 <h2>We will be using two kinds of algorithms:</h2><br>
