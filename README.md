@@ -10,7 +10,7 @@
 Link for the deployed site : https://course-up-tawny.vercel.app/
 
 
-## Table of Contents
+### Table of Contents
 1. [Idea](##idea)
 2. [About Us](#about-us)
 3. [Team Members](##team-members)
